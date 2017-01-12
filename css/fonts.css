@@ -1,0 +1,111 @@
+/* Avenir-Obligue*/
+
+@font-face {
+  font-family: 'Avenir-Oblique';
+  src: url('../fonts/Avenir-Obligue/Avenir-Oblique.eot');
+  src: url('../fonts/Avenir-Obligue/Avenir-Oblique.woff2') format('woff2'),
+  url('../fonts/Avenir-Obligue/Avenir-Oblique.woff') format('woff'),
+  url('../fonts/Avenir-Obligue/Avenir-Oblique.ttf') format('truetype'),
+  url('../fonts/Avenir-Obligue/Avenir-Oblique.svg#Avenir-Oblique') format('svg'),
+  url('../fonts/Avenir-Obligue/Avenir-Oblique.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Avenir-Heavy*/
+
+@font-face {
+  font-family: 'Avenir-Heavy';
+  src: url('../fonts/Avenir-Heavy/Avenir-Heavy.eot');
+  src: url('../fonts/Avenir-Heavy/Avenir-Heavy.woff2') format('woff2'),
+  url('../fonts/Avenir-Heavy/Avenir-Heavy.woff') format('woff'),
+  url('../fonts/Avenir-Heavy/Avenir-Heavy.ttf') format('truetype'),
+  url('../fonts/Avenir-Heavy/Avenir-Heavy.svg#Avenir-Heavy') format('svg'),
+  url('../fonts/Avenir-Heavy/Avenir-Heavy.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Avenir-Medium*/
+
+@font-face {
+  font-family: 'Avenir-Medium';
+  src: url('../fonts/Avenir-Medium/Avenir-Medium.eot');
+  src: url('../fonts/Avenir-Medium/Avenir-Medium.woff2') format('woff2'),
+  url('../fonts/Avenir-Medium/Avenir-Medium.woff') format('woff'),
+  url('../fonts/Avenir-Medium/Avenir-Medium.ttf') format('truetype'),
+  url('../fonts/Avenir-Medium/Avenir-Medium.svg#Avenir-Medium') format('svg'),
+  url('../fonts/Avenir-Medium/Avenir-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*MuseoSans-500*/
+
+@font-face {
+  font-family: 'MuseoSans-500';
+  src: url('../fonts/MuseoSans-500/museo-sans-500.eot');
+  src: url('../fonts/MuseoSans-500/museo-sans-500.eot') format('woff2'),
+  url('../fonts/MuseoSans-500/MuseoSans-500.woff') format('woff'),
+  url('../fonts/MuseoSans-500/MuseoSans-500.ttf') format('truetype'),
+  url('../fonts/MuseoSans-500/MuseoSans-500.svg#MuseoSans-500') format('svg'),
+  url('../fonts/MuseoSans-500/museo-sans-500.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*MuseoSans-700*/
+
+@font-face {
+  font-family: 'MuseoSans-700';
+  src: url('../fonts/MuseoSans-700/MuseoSans-700.eot');
+  src: url('../fonts/MuseoSans-700/MuseoSans-700.woff2') format('woff2'),
+  url('../fonts/MuseoSans-700/MuseoSans-700.woff') format('woff'),
+  url('../fonts/MuseoSans-700/MuseoSans-700.ttf') format('truetype'),
+  url('../fonts/MuseoSans-700/MuseoSans-700.svg#MuseoSans-700') format('svg'),
+  url('../fonts/MuseoSans-700/MuseoSans-700.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*MuseoSans-900*/
+
+@font-face {
+  font-family: 'MuseoSans-900';
+  src: url('../fonts/MuseoSans-900/MuseoSans-900.eot');
+  src: url('../fonts/MuseoSans-900/MuseoSans-900.woff2') format('woff2'),
+  url('../fonts/MuseoSans-900/MuseoSans-900.woff') format('woff'),
+  url('../fonts/MuseoSans-900/MuseoSans-900.ttf') format('truetype'),
+  url('../fonts/MuseoSans-900/MuseoSans-900.svg#MuseoSans-900') format('svg'),
+  url('../fonts/MuseoSans-900/MuseoSans-900.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*ProximaNova-Bold*/
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('../fonts/ProximaNova-Bold/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold/ProximaNova-Bold.woff2') format('woff2'),
+  url('../fonts/ProximaNova-Bold/ProximaNova-Bold.woff') format('woff'),
+  url('../fonts/ProximaNova-Bold/ProximaNova-Bold.ttf') format('truetype'),
+  url('../fonts/ProximaNova-Bold/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg'),
+  url('../fonts/ProximaNova-Bold/ProximaNova-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*ProximaNova-Semibold*/
+
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url('../fonts/ProximaNova-Semibold/ProximaNova-Semibold.eot');
+  src: url('../fonts/ProximaNova-Semibold/ProximaNova-Semibold.woff2') format('woff2'),
+  url('../fonts/ProximaNova-Semibold/ProximaNova-Semibold.woff') format('woff'),
+  url('../fonts/ProximaNova-Semibold/ProximaNova-Semibold.ttf') format('truetype'),
+  url('../fonts/ProximaNova-Semibold/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg'),
+  url('../fonts/ProximaNova-Semibold/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
