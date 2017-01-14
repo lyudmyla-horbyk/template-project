@@ -1,78 +1,82 @@
 /*Початок container*/
 
 .container {
-    width: 940px;
-    height: inherit;
-    margin: 0 auto;
+  width: 940px;
+  height: inherit;
+  margin: 0 auto;
 }
 
 /*Початок блока header*/
 
 .header {
-    height: 80px;
-    background-color: #f7fdfe;
+  height: 80px;
+  background-color: #f7fdfe;
 }
 
 .header .left {
-    float: left;
-    width: 50%;
-    height: 100%;
+  float: left;
+  width: 50%;
+  height: 100%;
 }
 
 .header .logo img {
-    max-height: 100%;
-    max-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .header .logo {
-    height: 100%;
-    display: inline-block;
+  height: 100%;
+  display: inline-block;
 }
 
 .header .right {
-    float: right;
-    width: 50%;
-    height: 100%;
-    text-align: right;
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: right;
 }
 
 .header .nav,
 .header .nav ul {
-    height: 100%;
+  height: 100%;
 }
 
 .header .nav a {
-    text-transform: uppercase;
-    font: 14px 'Museo Sans 700', sans-serif;
-    color: #6c6c6c;
-    text-decoration: none;
+  text-transform: uppercase;
+  font: 14px 'Museo Sans 700', sans-serif;
+  color: #6c6c6c;
+  text-decoration: none;
 }
 
 .header .nav li {
-    display: inline-block;
-    height: 100%;
-    line-height: 80px;
-    margin-left: 35px;
+  display: inline-block;
+  height: 100%;
+  line-height: 80px;
+  margin-left: 35px;
 }
 
 .header .nav li a.active,
 .header .nav li a:hover {
-    color: blue;
+  color: #0ebfdd;
 }
 
 .header .nav li a:active {
-    color: green;
+  color: green;
 }
 
 .header .nav .button {
-    display: inline-block;
-    background-color: #0ebfdd;
-    padding: 16px 37px;
-    border-radius: 25px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font: 14px 'Museo Sans 700', sans-serif;
+  display: inline-block;
+  background-color: #0ebfdd;
+  padding: 16px 37px;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 14px 'Museo Sans 700', sans-serif;
+}
+
+.header .nav .button:hover {
+  color: #5a5e62;
 }
 
 /*Кінець блока header*/
@@ -80,35 +84,35 @@
 /*Початок блока intro*/
 
 .intro {
-    width: 100%;
-    height: 600px;
-    background: url('../images/mountains.png') no-repeat;
-    overflow: hidden;
+  width: 100%;
+  height: 600px;
+  background: url('../images/mountains.png') no-repeat;
+  overflow: hidden;
 }
 
 .about-our-mission .title {
-    font: 44px 'Avenir 85 Heavy Regular', sans-serif;
-    color: #f7fdfe;
-    margin-top: 405px;
-    text-align: center;
+  font: 44px 'Avenir 85 Heavy Regular', sans-serif;
+  color: #f7fdfe;
+  margin-top: 405px;
+  text-align: center;
 }
 
 .about-our-mission .title:before,
 .about-our-mission .title:after {
-    content: '★';
-    font-size: 20px;
-    vertical-align: middle;
-    display: inline-block;
-    padding-left: 12px;
-    padding-right: 12px;
-    line-height: 44px;
-    padding-bottom: 4px;
+  content: '★';
+  font-size: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 12px;
+  padding-right: 12px;
+  line-height: 44px;
+  padding-bottom: 4px;
 }
 
 .about-our-mission .subtitle {
-    font: 20px 'Avenir Medium', sans-serif;
-    color: #f7fdfe;
-    text-align: center;
+  font: 20px 'Avenir Medium', sans-serif;
+  color: #f7fdfe;
+  text-align: center;
 }
 
 /*Кінець блока intro*/
@@ -116,22 +120,22 @@
 /*Початок блока about*/
 
 .about {
-    height: 250px;
-    background-color: #ffffff;
-    overflow: hidden;
+  height: 250px;
+  background-color: #ffffff;
+  overflow: hidden;
 }
 
 .short-bio .headline {
-    font: 44px 'Avenir 85 Heavy Regular', sans-serif;
-    color: #0ebfdd;
-    margin-top: 65px;
-    text-align: center;
+  font: 44px 'Avenir 85 Heavy Regular', sans-serif;
+  color: #0ebfdd;
+  margin-top: 65px;
+  text-align: center;
 }
 
 .short-bio .information {
-    font: 20px 'Avenir Medium', sans-serif;
-    color: #45494d;
-    text-align: center;
+  font: 20px 'Avenir Medium', sans-serif;
+  color: #45494d;
+  text-align: center;
 }
 
 /*Кінець блока about*/
@@ -139,76 +143,76 @@
 /*Початок блока team*/
 
 .team {
-    height: 600px;
-    background-color: #0ebfdd;
-    overflow: hidden;
+  height: 600px;
+  background-color: #0ebfdd;
+  overflow: hidden;
 }
 
 .team .title {
-    height: 138px;
+  height: 138px;
 }
 
 .team .people {
-    height: 304px;
-    text-align: center;
+  height: 304px;
+  text-align: center;
 }
 
 .team .work-with-us {
-    height: 158px;
-    text-align: center;
+  height: 158px;
+  text-align: center;
 }
 
 .team .column {
-    width: 230px;
-    height: 304px;
-    display: inline-block;
+  width: 230px;
+  height: 304px;
+  display: inline-block;
 }
 
 .title .text {
-    font: 44px 'Avenir 85 Heavy Regular', sans-serif;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 55px;
+  font: 44px 'Avenir 85 Heavy Regular', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 55px;
 }
 
 .people .column img {
-    height: 150px;
-    width: 156px;
-    border-radius: 78px;
-    margin-top: 60px;
+  height: 150px;
+  width: 156px;
+  border-radius: 78px;
+  margin-top: 60px;
 }
 
 .people .column h3 {
-    font: 18px 'Avenir 85 Heavy Regular', sans-serif;
-    color: #f7fdfe;
-    margin-top: 12px;
+  font: 18px 'Avenir 85 Heavy Regular', sans-serif;
+  color: #f7fdfe;
+  margin-top: 12px;
 }
 
 .people .column p {
-    font: 16px 'Avenir Oblique', sans-serif;
-    color: #f7fdfe;
-    margin-top: 5px;
+  font: 16px 'Avenir Oblique', sans-serif;
+  color: #f7fdfe;
+  margin-top: 5px;
 }
 
 .work-with-us .btn {
-    display: inline-block;
-    padding: 15px 35px;
-    border: 1px solid #ffffff;
-    border-radius: 50px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font: 14px 'Museo Sans 900', sans-serif;
-    margin-top: 55px;
+  display: inline-block;
+  padding: 15px 35px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 14px 'Museo Sans 900', sans-serif;
+  margin-top: 55px;
 }
 
 .team .work-with-us .btn.active,
 .team .work-with-us .btn:hover {
-    color: blue;
+  color: #5a5e62;
 }
 
 .team .work-with-us .btn:active {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 /*Кінець блока team*/
@@ -216,14 +220,14 @@
 /*Початок блока map*/
 
 .map {
-    height: 600px;
-    background-color: #a3a3a3;
+  height: 600px;
+  background-color: #a3a3a3;
 }
 
 .map iframe {
-    width: 100%;
-    height: 599px;
-    position: absolute;
+  width: 100%;
+  height: 599px;
+  position: absolute;
 }
 
 /*Кінець блока map*/
@@ -231,115 +235,115 @@
 /*Початок блока footer*/
 
 .footer {
-    height: 120px;
-    background-color: #45494d;
-    overflow: hidden;
+  height: 120px;
+  background-color: #45494d;
+  overflow: hidden;
 }
 
 .footer .block1 {
-    height: 80px;
+  height: 80px;
 }
 
 .footer .block2 {
-    height: 1px;
+  height: 1px;
 }
 
 .footer .block3 {
-    height: 40px;
-    overflow: hidden;
+  height: 40px;
+  overflow: hidden;
 }
 
 .footer .block1 a {
-    font: 12px 'Museo Sans 500', sans-serif;
-    color: #d7dee4;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-left: 32px;
+  font: 12px 'Museo Sans 500', sans-serif;
+  color: #d7dee4;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 32px;
 }
 
 .footer .block1 li a:active,
 .footer .block1 li a:hover {
-    color: #54acf7;
+  color: #54acf7;
 }
 
 .footer .block1 li {
-    display: inline-block;
-    height: 100%;
-    margin-top: 36px;
+  display: inline-block;
+  height: 100%;
+  margin-top: 36px;
 }
 
 .block2 hr {
-    background-color: #5a5e62;
-    height: 1px;
-    margin: 0;
-    padding: 0;
-    border: 0;
+  background-color: #5a5e62;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .footer .text {
-    width: 50%;
-    height: 100%;
-    float: left;
+  width: 50%;
+  height: 100%;
+  float: left;
 }
 
 .footer .icons {
-    width: 50%;
-    height: 100%;
-    float: right;
+  width: 50%;
+  height: 100%;
+  float: right;
 }
 
 .footer .share-icon {
-    width: 40px;
-    height: 40px;
-    border: 1px solid #d7dee4;
-    border-radius: 50%;
-    float: right;
-    margin-left: 10px;
-    margin-top: 20px;
-    background: url('../images/social-icons-sprite.png') center no-repeat;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #d7dee4;
+  border-radius: 50%;
+  float: right;
+  margin-left: 10px;
+  margin-top: 20px;
+  background: url('../images/social-icons-sprite.png') center no-repeat;
 }
 
 .share-icon.mail {
-    background-position: -82px 14px;
+  background-position: -82px 14px;
 }
 
 .share-icon.facebook {
-    background-position: 16px 12px;
+  background-position: 16px 12px;
 }
 
 .share-icon.twitter {
-    background-position: -194px 13px;
+  background-position: -194px 13px;
 }
 
 .share-icon.twitter:hover {
-    border: 1px solid #11b9ff;
-    background-position: -252px 13px;
+  border: 1px solid #11b9ff;
+  background-position: -252px 13px;
 }
 
 .share-icon.facebook:hover {
-    border: 1px solid #4173bd;
-    background-position: -31px 12px;
+  border: 1px solid #4173bd;
+  background-position: -31px 12px;
 }
 
 .share-icon.mail:hover {
-    border: 1px solid #f9dc3d;
-    background-position: -138px 14px;
+  border: 1px solid #f9dc3d;
+  background-position: -138px 14px;
 }
 
 .block3 .links,
 .block3 .links a {
-    font: 12px 'Museo Sans 500', sans-serif;
-    color: #5a5e62;
-    text-decoration: none;
-    text-align: right;
-    margin-top: 15px;
+  font: 12px 'Museo Sans 500', sans-serif;
+  color: #5a5e62;
+  text-decoration: none;
+  text-align: right;
+  margin-top: 15px;
 }
 
 .block3 .links .separator {
-    margin: 0 14px;
+  margin: 0 14px;
 }
 
 .footer .block3 a:active,
 .footer .block3 a:hover {
-    color: #54acf7;
+  color: #54acf7;
 }
